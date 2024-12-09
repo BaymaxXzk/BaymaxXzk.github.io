@@ -47,7 +47,7 @@
 |SRS 2  |Decision-making algorithms shall open or close the claw within 0.5 seconds of detecting an EMG signal based on EMG signal thresholds, which is 200       |Yes      |
 |SRS 3  |The system shall include fail-safe controls to prevent accidental or unsafe activation of the claw                                 |No      |
 |SRS 4  |The system shall include the battery health calculation by ADC to show the percentage of the current battery                      |Yes      |
-|SRS 5  |The software will output the PWM to control the servo degree       |F      |
+|SRS 5  |The software will output the PWM to control the servo degree       |Yes      |
 |SRS 6  |The software shall include the ISR to handle the interrupt by the button, ensuring a response time of less than 1 seconds          |Yes      |
 |SRS 7  | The software shall provide a user interface to display the real-time data, including EMG signal, battery health, and claw angle updating every 500 millisecond|Yes      |
 |SRS 8  |The software shall communicate with the LCD display using SPI protocol to send data       |Yes      |
