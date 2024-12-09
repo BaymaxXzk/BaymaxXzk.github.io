@@ -1,187 +1,45 @@
-# BaymaxXzk.github.io
+# Group 14 Smart Robot
 
-# Readme Format Reference
+# Motivation
 
-## 0. Tips
+## 1. To help people with disabilities or injuries gain the ability to perform everyday tasks that require hand movements. 
 
-### VSCode Markdown Extension Recommendation
+![image1](fig1.png)
 
-By using the extensions.json file in the .vscode folder, you should automatically be prompted to install recommended VSCode extensions when opening this repository. These extensions are also shown in the screenshot below.
+## 2.To show the human-machine interaction like the Spider-Man
 
-<figure>
-    <img src="./images/markdown_extensions.png"
-         alt="markdown_extensions"
-         width="300"
-         height="440">
-</figure>
+![image1](fig2.png)
 
-## 1. Headings
+# Video demonstration
 
-# Course Recommendation: ESE5190
+[Video](https://drive.google.com/file/d/1i9hbKQyfXkABlJKTv1TeEoS8o1czEdYp/view?usp=sharing)
 
-### Course Recommendation: ESE519
 
-#### Course Recommendation: ESE51
+# GIF demonstration
 
-##### Course Recommendation: ESE5
+## Gripper part
 
-###### Course Recommendation: ESE
+![image1](gripper.gif)
 
-####### Course Recommendation: ES
+## Spider shooter
 
-## 2. Emphasis
+![image1](spider.gif)
 
-### Bold
 
-Bold text is the **cat's meow**.
+# Images demonstration
 
-#### Italic
+### firmware_diagram
+![image1](fir.png)
 
-Italicized text is the *cat's meow*.
+### Circuit
+![image1](cir.png)
 
-### Bold & Italic
+### Project
+![image1](4.jpg)
 
-Bold & Italicized text is the ***cat's meow***.
 
-## 3. Lists
+# SRS Validation
 
-### Ordered Lists
-
-1. Cats
-
-2. Parrots
-
-    1. Caique Parrot
-
-    2. Cockatiel
-
-    3. Cockatoo
-
-3. Rabbits
-
-### Unordered Lists
-
-- Dogs
-
-    - Retriever
-
-        - Labrador Retriever
-    
-        - Golden Retriever
-    
-    - Shepherd Dog
-    
-        - German Shepherd Dog
-
-        - Collie
-
-- Cats
-
-## 4. Blockquotes
-
-> The Labrador tried fetching the ball, but the German Shepherd insisted on supervising, and the Collie just rolled its eyes!
-
-### Nested Blockquotes
-
-> The Caique Parrot is plotting something mischievous, while the Cockatiel is just whistling innocently in the corner.
-> 
->> Meanwhile, the Macaw is being loud, and the Cockatoo is busy showing off its dance moves!
-> 
-> The Labrador tried fetching the ball, but the German Shepherd insisted on supervising, and the Collie just rolled its eyes!
-
-### Blockquotes with Other Elements
-
-> #### ESE5190 is a great course!
->
-> - No labs
-> - No projects
->
->  *Everyone* will get **full points**.
-
-## 5. Code
-
-At the command prompt, type `sudo apt update`.
-
-#### Code Blocks
-
-```c
-/**
-* This is C language.
-*/
-#include <stdio.h>
-
-int main()
-{
-    printf("ESE5190");
-}
-```
-
-```python
-# This is python
-print("ESE5190")
-```
-
-## 6. Links
-
-More links for reference: 
-
-1. Link to Basic Syntax: [Basic Syntax](https://www.markdownguide.org/basic-syntax/#blockquotes-1)
-
-2. Getting started with writing and formatting on GitHub URL: <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github>
-
-## 7. Images
-
-There are several ways to add an image to your README file (see below), but the most efficient method is to **simply copy and paste the image directly into your code editor (e.g., VSCode)**. If you have the recommended extensions installed, you should be able to paste the image into your README.
-
-After pasting, you’ll see something like `![alt text](image.png)` in your markdown, and the image file will appear in your repository. To keep your repo organized, consider creating an "images" folder and moving all image files there. Don’t forget to update the image path in the markdown to something like `![alt text](images/your-image.png)`.
-
-![A cat meme](images/catmeme.png)
-
-The Markdown syntax for images doesn’t allow you to specify the width and height of images. If you need to resize an image, you can use the img HTML tag with the width and height attributes to set the dimensions of an image in pixels.
-
-<figure>
-    <img src="./images/catmeme.png"
-         alt="catmeme"
-         width="120"
-         height="60">
-    <figcaption>Cat.zip</figcaption>
-</figure>
-
-### Ways to add an image to a README file on GitHub
-
-1. **Direct Image Link (Hosted Online)**:
-
-   - Use an image hosted online by inserting its URL in the markdown:
-
-     ```markdown
-     ![alt text](https://example.com/image.png)
-     ```
-
-2. **Relative Path (Image in the Repository)**:
-
-   - Place the image in your repository and reference it using a relative path:
-
-     ```markdown
-     ![alt text](./images/image.png)
-     ```
-
-3. **Copy-Paste in VSCode**:
-
-   - If you are using VSCode with recommended extensions, you can copy an image and paste it directly into the README file. This will automatically add the image to your repo and create the correct markdown syntax:
-
-     ```markdown
-     ![alt text](image.png)
-     ```
-
-4. **Using HTML**:
-
-   - If more control is needed (like setting width or height), you can use HTML inside your markdown:
-
-     ```html
-     <img src="path/to/your/image.png" alt="alt text" width="300"/>
-     ```
-
-## 8. Tables
 
 |      |Points   |Grade  |
 |------|---------| ------|
@@ -189,26 +47,39 @@ The Markdown syntax for images doesn’t allow you to specify the width and heig
 |STU2  |70       |C      |
 |STU3  |90       |A      |
 
-## 9. Mathematic Symbols
+Did you achieve your requirements?
+How did you test? Show proof of work (videos, images, collected data, etc.)
 
-The *Gamma function*, which satisfies $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$, is defined by the Euler integral
+# HRS Validation
 
-$$
-\Gamma(z) = \int_0^\infty t^{z-1} e^{-t} \, dt\,.
-$$
 
-Use any Latex Equation Generator to generate formulas in Latex format! (e.g., [latex_equation_editor](https://www.tutorialspoint.com/latex_equation_editor.htm) )
+|      |Points   |Grade  |
+|------|---------| ------|
+|STU1  |50       |F      |
+|STU2  |70       |C      |
+|STU3  |90       |A      |
 
-## 10. Horizontal Rules
+Did you achieve your requirements?
+How did you test? Show proof of work (videos, images, collected data, etc.)
 
-The first way of adding a Horizontal Rule: 
+# Conclusion
 
-***
+In this project, we were able to design a smart robot system that demonstrated key principles of embedded systems: real-time control, efficient power management, and robust sensor integration. With the use of advanced microcontrollers and carefully chosen components, we were able to find a balance between performance and functionality. The robot performed its designed tasks efficiently, showing our understanding of embedded software design, hardware interfacing, and system optimization.
 
-The second way of adding a Horizontal Rule: 
+# What Would You Have Done Differently?
+Reflecting on the project, there are several aspects we would approach differently to further enhance the system:
 
----
+### Hardware Optimization:
 
-The third way of adding a Horizontal Rule: 
+We would have chosen more modular and scalable hardware components to allow for easier integration and future upgrades.
+Exploring alternative power sources or optimizing power consumption would have extended operational time.
 
-_________________
+### Improved Testing and Debugging:
+
+Incorporating more systematic testing at every development stage would have reduced debugging time.
+Adding diagnostic tools or logging mechanisms would have provided clearer insights into system behavior under different conditions.
+
+### Algorithm Refinement:
+
+Implementing more advanced control algorithms, such as predictive or adaptive controls, could have improved the robot's efficiency and responsiveness.
+Exploring machine learning techniques could have added an element of autonomy and adaptability.
