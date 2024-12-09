@@ -1,5 +1,12 @@
 # Group 14 Smart Robot
 
+    * Team Name: Smart Robot
+    * Team Members: Zhongkun Xue and Toma Yasuda
+    * Github Repository URL: https://github.com/BaymaxXzk/BaymaxXzk.github.io.git
+    * Github Pages Website URL: https://baymaxxzk.github.io/
+    * Description of hardware: EMG Sensor, 328PB, LCD, Serveo, Battery, Voltage Regulator, 3D printer
+
+
 # Motivation
 
 ## 1. To help people with disabilities or injuries gain the ability to perform everyday tasks that require hand movements. 
