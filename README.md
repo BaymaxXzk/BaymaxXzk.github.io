@@ -41,17 +41,49 @@
 # SRS Validation
 
 
+SRS 1 was achieved? The software detects EMG signals between 0 and 1024 by ADC, filters noise under, and classifies signal strength. This requirement was tested by displaying the data corrected by the EMG signals on the serial terminal. The values corrected were between 0 and 1024 by ADC.???  The data corrected is shown below as the proof of the work.
+
+SRS 02, will measure time to test
+We measured the time between detecting an EMG signal and claw being opened and closed by displaying the time on the serial monitor. We tested 50 times and the average time is , max is , and min is 
+All the data collected is shown below.
+
+SRS 03 was not achieved because we did not include fail-safe controls to prevent accidental or unsafe activation of the claw. However, there is a button that can be used to stop the control of servo manually.
+SRS 04 was achieved and the system includes battery health calculation by ADC to show the percentage of the current battery on the LCD screen. We tested this requirement by showing battery percentage on the screen and compared it with the measured value by the multimeter. The image of the LCD screen is shown below as the proof of the work.
+
+SRS 05 was achieved and the software outputs the PWM to control the servo degree. The servo can move the claw based on the input of the EMG signal. The screenshot of the code controlling the servo is shown below as the proof of the work and the video shows that the servo is controlled by the PWM can be found in our demo video.
+SRS 06 will measure time
+We measured the response time to handle the interrupt by the button by printing on the serial. We tested 50 times and data is shown below. 
+
+SRS 07 will measure time
+The time to update the LCD screen was measured and displayed on the serial monitor. Data is corrected 50 times and shown below.
+
+SRS 08 was achieved and the LCD screen displays the data including EMG signal, battery health, and claw angle. The image of the LCD screen displaying the data is shown below.
+
+
 |      |Points   |Grade  |
 |------|---------| ------|
 |STU1  |50       |F      |
 |STU2  |70       |C      |
 |STU3  |90       |A      |
 
-Did you achieve your requirements?
-How did you test? Show proof of work (videos, images, collected data, etc.)
+
 
 # HRS Validation
 
+HRS 01
+Achieved. ATmega328PB microcontroller operating at 16MHz is used for this project. The image is shown below as proof.
+HRS 02
+Myoware Muscle Sensor is used, will have to measure voltage
+
+HRS 03
+Achieved. A 1.8" Color TFT LCD (ST7735R controller) to display data for users. The image is shown below.
+
+HRS 04
+Achieved. A servo motor with 270-degree rotation capability for mechanical actuation controlled by PWM is used for our project. Here is the link for the datasheet of the servo.
+
+HRS 05
+A 9V battery is used for power supply and converted to 5 volts by using a voltage regulator. We measured the voltage supplied to the ATmega328PB by using a multimeter. Will have to check voltage
+
 
 |      |Points   |Grade  |
 |------|---------| ------|
@@ -59,8 +91,6 @@ How did you test? Show proof of work (videos, images, collected data, etc.)
 |STU2  |70       |C      |
 |STU3  |90       |A      |
 
-Did you achieve your requirements?
-How did you test? Show proof of work (videos, images, collected data, etc.)
 
 # Conclusion
 
