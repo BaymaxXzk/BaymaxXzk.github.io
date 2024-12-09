@@ -129,7 +129,7 @@ HRS 03:
 Achieved. A 1.8" Color TFT LCD (ST7735R controller) to display data for users. The proof is in our video.
 
 HRS 04:
-Achieved. A servo motor with 270-degree rotation capability for mechanical actuation controlled by PWM is used for our project. Here is the link for the datasheet of the servo.
+Achieved. A servo motor with 180-degree rotation capability for mechanical actuation controlled by PWM is used for our project. Here is the link for the datasheet of the servo.
 
 [datasheet_SG90](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
 
